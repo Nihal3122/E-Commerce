@@ -1,0 +1,20 @@
+.userTable th {
+    @apply border text-base font-medium
+}
+
+.userTable {
+    @apply bg-white
+}
+
+.userTable td {
+    @apply border text-base text-center
+}
+
+/* Hide The Scrollbar */
+.scrollbart-none::-webkit-scrollbar {
+    display: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
